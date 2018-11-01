@@ -1,6 +1,6 @@
 (library
  (name        stellar)
  (public_name stellar)
- (libraries  base64 ocplib-json-typed)
+ (libraries  base64 ocplib-json-typed ocplib-resto-cohttp)
  (synopsis "Horizon API"))
 
