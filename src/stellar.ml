@@ -1,9 +1,9 @@
-let b64_encoding =
-  Json_encoding.(conv B64.encode B64.decode string)
+(* let b64_encoding =
+ *   Json_encoding.(conv B64.encode B64.decode string) *)
 
-let value_encoding =
-  let open Json_encoding in
-  conv (fun s -> s) (fun s -> s) (obj1 (req "value" b64_encoding))
+(* let value_encoding =
+ *   let open Json_encoding in
+ *   conv (fun s -> s) (fun s -> s) (obj1 (req "value" b64_encoding)) *)
 
 module Threshold = struct
   type t = {

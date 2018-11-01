@@ -1,8 +1,0 @@
-(jbuild_version 1)
-
-(library
- ((name        stellar)
-  (public_name stellar)
-  (libraries  (base64 ocplib-json-typed))
-  (synopsis "Horizon API")))
-
